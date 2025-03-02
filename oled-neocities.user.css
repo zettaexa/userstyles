@@ -1,5 +1,13 @@
-@-moz-document url-prefix("https://neocities.org/") {
-.page {
+/* ==UserStyle==
+@name           neocities at night
+@namespace      github.com/zettaexa/userstyles
+@version        1.0.1
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("neocities.org") {
+    .page {
     background: #13100c;
 }
 
@@ -172,6 +180,9 @@ body {
     color: #ddd;
     font-style: normal;
     font-size: .8em;
+}
+
+/* this css is from zettaexa on github dot com */
 }
 
 /* this css is from zettaexa on github dot com */
