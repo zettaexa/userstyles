@@ -11,3 +11,7 @@ in this repo, styles are tagged by what it can do<br>
 `dpr-` | depracated
 `fork-` | contributed
 `oo-` | one off
+<br>
+file name template goes like<br>
+
+`tags-site.user.css`
