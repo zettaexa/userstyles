@@ -1,0 +1,112 @@
+/* ==UserStyle==
+@name           rym dark rewritten
+@namespace      github.com/zettaexa/rym-at-night2
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("rateyourmusic.com"), domain("rym.fm") {
+    html {
+    --surface-primary-night: #0d0d0d;
+    --surface-secondary-night: #181818;
+    --surface-tertiary-night: #1c1c1c;
+    --background-night: #000;
+    
+    --mono-abs-f: #ffffff;
+    --mono-abs-d: #dddddd;
+    --mono-abs-a: #aaaaaa;
+    --mono-abs-9: #202020;
+    --mono-abs-8: #888888;
+    --mono-abs-3: #000000;
+    
+    --neutral-dark-20: #1b1b1b;
+    --neutral-dark-90: #fffc;
+    }
+    
+    html.theme_night {
+    --mono-f: #000;
+    --mono-fd: #191919;
+    --mono-fc: #1a1a1a;
+    --mono-fb: #0f0f0f;
+    --mono-fa: #0d0d0d;
+    --mono-f8: #070707; /*Ratings*/
+    --mono-f7: #0b0b0b;
+    --mono-f4: #0e0e0e;
+    --mono-f3: #0f0f0f;
+    --mono-f2: #111;
+    --mono-f1: #222222;
+    --mono-f0: #0d0d0d;
+    --mono-e: #0d0d0d;
+    --mono-ef: #292929;
+    --mono-e8: #181818;
+    --mono-e2: #0d0d0d;
+    --mono-db: #070707; /*Catalog Buttons*/
+    --mono-d8: #0f0f0f;
+    --mono-d: #0d0d0d;
+    --mono-c: #1a1a1a;
+    --mono-b: #484848;
+    --mono-a: #292929;
+    --mono-9: #0d0d0d;
+    --mono-8: #777777;
+    --mono-7: #888888;
+    --mono-6: #999999;
+    --mono-5: #fffc;
+    --mono-4: #fffc;
+    --mono-3: #cccccc;
+    --mono-2: #dddddd;
+    --mono-1: #eeeeee;
+    --mono-0: #ffffff;
+    --gen-bg-lightgreen: #93ff931f;
+    --gen-bg-lightred: #8a21211f;
+    --gen-bg-yellow: #463c0747;
+    }
+    
+    ul.issues li.release_view {
+    display: none;
+    }
+    
+    .page_charts_section_charts_version_selector {
+    display: none;
+    }
+    
+    div.or_card_frame {
+    background: #101010;
+    }
+    
+    hr {
+    display: none;
+    }
+    
+    .ookiig {
+    display: none;
+    }
+    
+    header .divider {
+    background: #2b2b2b;
+    }
+    
+    #content_cover {
+    background: rgba(0, 0, 0, .6);
+}
+
+    .page_chart_query_become_subscriber {
+    display: none;
+}
+
+    ul.tracks li:nth-child(even) {
+    background: #181818c2;
+}
+    .musicmap.night {
+    background: #080808;
+}
+
+    .play_history_item_date {
+    color: #fffc;
+    }
+    
+    .spoiler {
+    border: 2px solid #d06f6f;
+    background-color: #3d1212;
+    }
+}
