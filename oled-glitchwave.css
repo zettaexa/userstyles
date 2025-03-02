@@ -1,0 +1,358 @@
+/* ==UserStyle==
+@name           glitchwave.com
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("glitchwave.com") {
+/*Home page*/
+    html.theme_night #content {
+    background-color: #000000;
+    }
+    
+    .theme_night .beta_entry {
+    background: #0d0d0d;
+    }
+    
+    html.theme_night ul.page_discography_items li:nth-child(even) {
+    background: #111111;
+    }
+    
+    html.theme_night #content_wrapper {
+    background-color: rgb(0 0 0);
+    }
+
+/*Header*/
+    html.theme_night header {
+    background: #0d0d0d;
+    }
+    
+    html.theme_night.page_chart.glitchwave header {
+    background: #0d0d0d;
+}
+    /*Divider*/
+    html.theme_night header .divider {
+    background: #2b2b2b;
+    }
+    
+/*Search*/
+    html.theme_night .header_search .ui_chooser {
+    background: #1c1c1c;
+    }
+    
+    html.theme_night .ui_chooser {
+    background: #1c1c1c;
+    border: 1px solid #1c1c1c;
+    color: #eee;
+    }
+    
+    html.theme_night .ui_chooser_type {
+    background: #1c1c1c;
+    }
+    
+/*Game*/
+/*Right Column*/
+    html.theme_night .bg-eee {
+    background-color: #000;
+    }
+    
+/*Rating Bar*/
+    html.theme_night .cataloger_container .ui_catalog_btn_display {
+    background: #070707;
+    }
+    
+    html.theme_night .ui_cataloger_dialog {
+    background: linear-gradient(145deg, #000000, #121212);
+}
+
+/*Releases*/
+    html.theme_night .page_object_issue {
+    border-left: .5em solid #222;
+    background: linear-gradient(to bottom, #0d0d0d, #000);
+    box-shadow: 0 0 5px #330101;
+    border: 1px solid #333;
+    }   
+
+    .page_object_issue_show_all {
+    display: none;
+    }
+    /*Just do press all!!!*/
+
+/*Buttons*/
+    html.theme_night .btn {
+    background: #0d0d0d;
+    color: #eee;
+    }
+    
+    html.theme_night .flat_btn {
+    background: #0d0d0d;
+    border: 1px solid #141414;
+    }
+    
+    html.theme_night .nav_btn {
+    background: #000000;
+    }
+    
+    html.theme_night .nav_btn.disabled {
+    background: #000000;
+    color: #777;
+    }
+    
+    .rym_follow_btn {
+    background: linear-gradient(to bottom, #0d0d0d, #141414);
+    }
+    
+    html.theme_night .flat_btn.depressed, html.theme_night .flat_btn.depressed:hover {
+    background: #191919;
+    color: #eee;
+    border: 1px solid #333333;
+    }
+    
+    html.theme_night .flat_btn:hover {
+    background: #1b1b1b;
+    }
+    
+    html.theme_night .cataloger_container .ui_catalog_btn_display:hover {
+    background: #1b1b1b
+}
+    
+/*Reviews*/
+    html.theme_night .page_object_section_reviews {
+    background: #000000;
+    }
+    
+    html.theme_night .media_timeline_btn.played {
+    background: #161616;
+    color: #ebef09;
+    }
+    
+    html.theme_night .page_object_section_reviews .ui_review {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #161616;
+    }
+    
+/*Catalog*/
+    html.theme_night .bg-f8f8f8 {
+    background-color: #0d0d0d;
+    }
+    
+    html.theme_night .alternate.bg-f8f8f8:nth-child(even) {
+    background-color: #000000;
+    }
+    
+    
+
+/*Left Column*/
+    html.theme_night .page_object_left_column {
+    background: #0d0d0d;
+    color: #ddd;
+    border-right: 1px solid #333;
+    }
+    
+/*Comments*/
+    html.theme_night .page_user_section_comments li.comment {
+    background: #141414;
+    }   
+    
+    .comment_load_more_btn {
+    background: #141414;
+    }
+    
+    .comment_post_btn, .comment_post_add_btn, .comment_cancel_btn, .comment_load_more_btn {
+    background: #141414;
+    }
+
+/*Game Footer*/
+    html.theme_night .bg-ddd {
+    background-color: #0b0b0b;
+    }
+
+    .page_object_section_contributions {
+    border-top: 1px solid #333;
+    }
+
+/*Footer*/
+    html.theme_night footer {
+    background-color: rgb(0, 0, 0);
+    }
+    html.page_object footer {
+    background: #000;
+    }
+    footer {
+    color: #ddd;
+    border-top: 3px solid #333;
+    }
+    
+/*Modal*/
+    html.theme_night .login_frame, html.theme_night .modal_frame_standard, html.theme_night .login_frame, html.theme_night .modal_frame_collective_voting {
+    background: #000000;
+    border: 3px solid #1c1c1c;
+  }  
+  
+/*User*/
+    /*Top*/
+    .page_user_topinfo {
+    background: rgb(27 27 27 / 60%)
+    }
+    
+    .page_user_hero_overlay {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(27, 27, 27 / 60%));
+    }
+    
+    /*Content/Ratings*/
+    html.theme_night .page_user_content {
+    background: #070707;
+    }
+
+    html.theme_night .page_user_section_collection_stats {
+    background: #0d0d0d;
+    }
+    
+    html.theme_night .page_user_section_collection_recent_items {
+    background: #0d0d0d;
+    }
+    
+    /*Collection*/
+    html.theme_night .collection_card:nth-child(odd) {
+    background: #111111;
+    }
+    
+    html.theme_night .collection_card:nth-child(even) {
+    background: #000;
+    }
+    
+    html.theme_night .page_collection_expand_btn {
+    background: #141414;
+    }
+    
+    html.theme_night .page_gallery_overlay_frame {
+    background: #0d0d0dfc;
+    }
+    
+/*Charts*/
+    html.theme_night.glitchwave.page_chart body {
+    background: linear-gradient(to bottom, #010101, #000);
+    }
+    
+/*Settings*/
+    html.theme_night input, html.theme_night select, html.theme_night textarea {
+    background: rgba(128, 128, 128, 0.2);
+    }
+    
+    .ui_fullname_input {
+    background: rgba(128, 128, 128, .2) !important;
+    }
+    
+    html.theme_night .settings_header.selected {
+    color: #fff;
+    background: #1c1c1c;
+    }
+    
+/*Genre*/
+    html.theme_night ul.subgenre_list {
+    background: #0d0d0d;
+    }
+    
+    html.theme_night .parent_list_item {
+    background: #1b1b1b;
+}
+    html.theme_night .subgenre_list_item {
+    background: #101010;
+    border: 2px solid #1b1b1b;
+}
+    html.theme_night .page_chart_section_link {
+    background: #141414;
+}
+    
+    .genre_block {
+    position: relative;
+    background: #0d0d0d;
+    }
+    
+    .genre_mosaic {
+    display: none;
+    }
+    
+    html.theme_night .genre_block_fade {
+    background: linear-gradient(to bottom, rgb(9 9 9 / 10%), rgb(20 20 20 / 90%));
+}
+
+/*Rate Modal*/
+html.theme_night .ui_cataloger_dialog_section_listening.not_played .ui_cataloger_listening_status_initial_item_not_played {
+    background: #1e1e1e;
+    color: #ddd;
+}
+
+html.theme_night .ui_cataloger_ownership.ownership_not_owned .ui_cataloger_choose_ownership_not_owned {
+    background: #1e1e1e;
+    color: #ddd;
+}
+
+html.theme_night .ui_cataloger_ownership_item:hover {
+    background: #222
+}
+
+html.theme_night .ui_cataloger_ownership.ownership_in_collection .ui_cataloger_choose_ownership_in_collection {
+    background: #1e1e1e;
+    }
+    
+html.theme_night .ui_cataloger_ownership.ownership_on_wishlist .ui_cataloger_choose_ownership_on_wishlist {
+    background: #1e1e1e;
+    color: #d296d2;
+}
+
+html.theme_night .ui_cataloger_ownership.ownership_used_to_own .ui_cataloger_choose_ownership_used_to_own {
+    background: #1e1e1e;
+    color: #96b7d2;
+}
+
+html.theme_night .ui_cataloger_dialog_section_listening.want_to_play .ui_cataloger_listening_status_initial_item_want_to_play {
+    background: #1e1e1e;
+    color: #ddd;
+}
+
+html.theme_night .ui_cataloger_format_override_btn {
+    background: #1e1e1e;
+    }
+
+.ui_cataloger_dialog_help {
+    background: rgba(128,128,128,0.0);
+}
+
+html.theme_night .ui_cataloger_dialog_rating_item.item_zero {
+    background: #1e1e1e;
+}
+
+
+html.theme_night .ui_picker_frame {
+    background: rgba(128, 128, 128, .2);
+  }
+}
+
+html.theme_night .ui_cataloger_dialog_rating_base:hover,html.theme_night .ui_cataloger_dialog_rating_subitem:hover {
+    background: #222
+}
+
+html.theme_night .cataloger_container .ui_catalog_btn_display {
+    box-shadow: 1px 1px 2px #000;
+    border: 0.5px #222 solid;
+    }
+    
+    
+/*ETC*/
+html.theme_night #pane_content .savebtn {
+    background: #181818;
+    border: 1px solid #333;
+    }
+    
+html.theme_night #pane_content .savebtn:hover {
+    background: #222;
+}
+
+html.theme_night .settings_header:hover {
+    background: #222;
+    }
+}    
