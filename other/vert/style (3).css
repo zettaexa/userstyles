@@ -1,0 +1,45 @@
+/* ==UserStyle==
+@name           vert styles
+@namespace      github.com/zettaexa/verttweaks
+@version        1.0.0
+@description    customizable style for vert dot sh
+@author         zetta
+@advanced color bgcolor "Background" hsl(246, 33%, 1%)
+@advanced color bgaccent "Accent Background" hsl(246, 41%, 21%)
+@advanced color fgaccent "Accent Foreground" hsl(246, 73%, 81%)
+@advanced text font "Font" Segoe UI
+@advanced text padding "Padding" 100px
+==/UserStyle== */
+
+@-moz-document domain("vert.sh") {
+    :root {
+    --font-body: /*[[font]]*/;
+    --font-display: /*[[font]]*/, var(--font-body);
+}
+    
+    body {
+        background-color: /*[[bgcolor]]*/; 
+}
+    
+    .bg-background {
+    background-color: /*[[bgcolor]]*/;
+}
+    
+    :root.dark {
+    --accent-bg: /*[[bgaccent]]*/;
+    --accent-fg: /*[[fgaccent]]*/;
+    --bg: hsl(0, 0%, 8%);
+    --bg-transparent: hsla(0, 0%, 8%, .8);
+    --fg: hsl(0, 0%, 90%);
+    --fg-muted: hsl(0, 0%, 50%);
+    --fg-muted-alt: hsl(0deg 0% 8.02%);
+    --fg-highlight: /*[[fgaccent]]*/;
+    --fg-failure: hsl(0, 67%, 80%);
+    color-scheme: dark;
+}
+    
+    .p-4 {
+    padding: /*[[padding]]*/;
+}
+    
+}

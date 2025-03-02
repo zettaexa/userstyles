@@ -1,0 +1,11 @@
+! Title: vert filters
+! Description: filters for vert.sh to make it look clean
+! Last modified: 17 Nov 2024
+! Homepage: https://rentry.co/vertsh
+! Format: ublock
+! Nov 17, 2024 https://vert.sh
+vert.sh##.svelte-41xpmz.w-fit.col-start-1.row-start-1 > .min-w-fit.w-full.relative > .focus\:\!outline-none.p-2.rounded-xl.border-foreground-muted-alt.bg-background.items-center.flex.border-solid.border-2.px-3.cursor-pointer.relative.overflow-hidden.justify-between.min-w-fit.w-full.font-display
+vert.sh##.svelte-41xpmz.w-fit.gap-3.flex-col.flex > h3.svelte-41xpmz
+vert.sh##.svelte-41xpmz.mb-1.text-xl.font-bold
+vert.sh##.mt-20
+vert.sh##.lg\:mt-5.mx-auto.mb-10.flex.border-foreground-muted-alt.rounded-2xl.border-2.border-solid.p-1.max-w-screen-md.w-full
