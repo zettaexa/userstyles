@@ -1,9 +1,9 @@
 /* ==UserStyle==
-@name           catbox.moe
-@namespace      github.com/openstyles/stylus
-@version        1.0.0
-@description    A new userstyle
-@author         Me
+@name           catbox OLED
+@namespace      github.com/zettaexa/userstyles
+@version        1.0.1
+@description    makes catbox better
+@author         zetta
 @advanced color bgcolor "Background" hsl(222, 33%, 1%)
 @advanced color bgaccent "Accent Background" hsla(222, 30%, 30%, .1)
 @advanced color fgaccent "Accent Foreground" hsl(222, 30%, 30%)
