@@ -1,0 +1,178 @@
+@-moz-document url-prefix("https://neocities.org/") {
+.page {
+    background: #13100c;
+}
+
+html {
+    background: #000;
+}
+
+.header-Nav {
+    background: #5e95a1;
+    border-bottom: 1px solid #000000;
+}
+
+.interior .header-Outro.with-columns {
+    padding-top: 22px;
+    background: #252525;
+}
+
+.interior .header-Outro.with-columns .col-66 {
+    width: 67%;
+    border-right: 1px solid #252525;
+    background-color: #252525;
+}
+
+.interior .header-Outro.with-columns .content, .interior .header-Outro.with-columns .footer-Content {
+    padding: 0;
+    background: #252525;
+}
+
+.stats {
+    margin-bottom: 2em;
+    float: left;
+    width: 100%;
+    color: lightblue;
+}
+
+.news-item .title .text {
+    float: left;
+    margin-top: .45em;
+    color: lightblue;
+}
+
+.files {
+    background: #151e20;
+}
+
+.files .list .upload-Boundary.with-instruction {
+    background: #151e20;
+}
+
+.files .list .upload-Boundary {
+    border: 3px dashed #add8e6;
+}
+
+.file .title {
+    color: #ebfaff;
+}
+
+.brand-asset {
+    background: #000;
+}
+
+placeholder {
+    color: #fff;
+}
+
+.accordion-group {
+    border: 1px solid #252525;
+}
+
+.accordion-inner {
+    border-top: 1px solid #252525;
+}
+
+p, li, h1, h2, h3, .base {
+    font-size: .9em;
+    font-weight: 300;
+    color: lightblue;
+}
+
+.footer-Content {
+    background-color: #000;
+}
+
+.footer-Outro {
+    background: #000;
+}
+
+.footer-Outro a {
+    color: #fff;
+}
+
+.interior .header-Outro {
+    padding-top: 30px;
+    overflow: hidden;
+    background: #252525;
+}
+
+.news-item.comment .content, .news-item.comment .footer-Content {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 10px;
+    color: lightblue;
+}
+
+.news-item .files {
+    background: #000;
+    padding: 0px;
+    margin-bottom: 4px;
+}
+
+.content.single-Col.misc-page, .single-Col.misc-page.footer-Content {
+    background: #000;
+}
+
+.news-item .user {
+    font-weight: bold;
+    color: #fff !important;
+}
+
+
+body {
+    color: #4b6986;
+}
+
+.website-Gallery.int-Gall li {
+    margin: 0 .5% 12px;
+    width: 24%;
+    background-color: #000;
+    border: 9px solid #000;
+    overflow: hidden;
+}
+
+.section {
+    padding: 55px 8%;
+    margin: 0 auto;
+    float: left;
+    background: #282626;
+    width: 100%;
+}
+
+.content-Base {
+    background: #161616;
+    min-height: 500px;
+    padding-bottom: 50px;
+}
+
+.content.misc-page.columns .col-66, .misc-page.columns.footer-Content .col-66 {
+    width: 66.95%;
+    left: 33.05%;
+    background: #0a0a0a;
+}
+
+.news-item .you {
+    color: #fff !important;
+}
+
+.content.misc-page, .misc-page.footer-Content {
+    background: #000000;
+}
+
+.post-comment {
+    background: #000;
+}
+
+.news-item {
+    border-top: 1px solid #1c1b1b;
+}
+
+.news-item .comment {
+    color: #ddd;
+    font-style: normal;
+    font-size: .8em;
+}
+
+/* this css is from zettaexa on github dot com */
+}
