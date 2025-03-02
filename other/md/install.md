@@ -1,7 +1,7 @@
 # installation
 ### before ...
-0. install the [stylus](https://github.com/openstyles/stylus) browser extension
-   
+install the [stylus](https://github.com/openstyles/stylus) browser extension
+
 ### quick way
 1. go to the [readme](https://github.com/zettaexa/userstyles/blob/main/README.md) on github
 2. click on any of the sites below, press "install style"
