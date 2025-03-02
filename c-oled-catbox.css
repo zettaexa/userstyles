@@ -1,0 +1,83 @@
+/* ==UserStyle==
+@name           catbox.moe
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+@advanced color bgcolor "Background" hsl(222, 33%, 1%)
+@advanced color bgaccent "Accent Background" hsla(222, 30%, 30%, .1)
+@advanced color fgaccent "Accent Foreground" hsl(222, 30%, 30%)
+@advanced color hover "Hover" hsl(222, 30%, 30%)
+@advanced text radius "Border Radius" 5px
+@advanced text font "Font" Segoe UI
+@advanced text fontsz "Font Size" 10px
+==/UserStyle== */
+
+@-moz-document url-prefix("https://catbox.moe/") {
+    body { 
+        font-family: /*[[font]]*/;
+    }
+    
+    .greeting {
+        display: none;
+    }
+    
+    .linkrow {
+        display: none;
+    }
+    
+    .footer {
+        display: none;
+    }
+    
+    .notetiny {
+        display: none;
+    }
+    
+    .image {
+        display: none;
+    }
+    
+    div.dz-preview {
+        border-radius: /*[[radius]]*/;
+        background-color: #070d09;
+    }
+
+    form.dz-clickable {
+        background-color: /*[[bgaccent]]*/;
+        border-color: /*[[fgaccent]]*/;
+        border-radius: /*[[radius]]*/;
+    }
+    
+    div.responseText {
+        background-color: hsla(265, 50%, 26%, .2);
+        border-color: hsl(265, 60%, 58%);
+        border-width: 1px;
+        border-radius: /*[[radius]]*/;
+        font-size: /*[[fontsz]]*/;
+    }
+
+    div.responseText:hover {
+	background-color: hsla(265, 50%, 26%, .4);
+	transition: background-color 150ms linear;
+    }
+
+    form.dz-clickable:hover {
+	    background-color: /*[[hover]]*/;
+	    text-decoration: none;
+	    outline: none;
+	    transition: background-color 150ms linear;
+    }
+    
+    body {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+}
+
+div.dz-preview {
+    box-shadow: none !important;
+}
+}
