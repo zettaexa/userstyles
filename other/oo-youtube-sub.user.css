@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name         Custom YouTube Subscribe
+@namespace    User Styles World
+@author       zetta
+@description  Change the color of the subscribe button in YouTube
+@version      1
+@license      NONE
+@preprocessor uso
+@advanced color subcolour "Subscribe Background Colour" #c91a5a
+@advanced color textcolour "Subscribe Text Colour" #FFF7fA
+@advanced text font "Subscribe Font" Roboto
+@advanced text buttonfont "Every Button on YouTube Font" Roboto
+==/UserStyle== */
+@-moz-document domain("www.youtube.com") {
+    
+    .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
+        background-color: /*[[subcolour]]*/ !important;
+        color: /*[[textcolour]]*/ !important;
+        font-family: /*[[font]]*/;
+    }
+    
+    .yt-spec-button-shape-next__button-text-content {
+        font-family: /*[[buttonfont]]*/;
+    }
+    
+}
