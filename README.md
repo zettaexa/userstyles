@@ -8,4 +8,4 @@ designed for [stylus](https://github.com/openstyles/stylus), styles marked `c-` 
 ## install
 1. install the [stylus](https://github.com/openstyles/stylus) browser extension
 2. go to a userstyle of your choice
-3. click "Raw", then press "Install style"
+3. click "raw", then press "install style"
