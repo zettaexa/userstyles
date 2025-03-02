@@ -1,0 +1,149 @@
+/* ==UserStyle==
+@name           rentry at night
+@namespace      github.com/zettaexa/rentry-at-night
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+@advanced checkbox top1 "=== Site-Wide" 0
+@advanced color cardcolor "Content" #010101
+@advanced color bgcolor "Background" #000000
+@advanced color fontcolor "Text" #d7d7d7
+@advanced color mutedcolor "Info Text" #83898e
+@advanced text fontfamily "Font" Segoe UI
+
+@advanced checkbox top2 "=== Rentry Elements" 0
+@advanced color linkcolor "Links" #4b99d1
+@advanced color sepcolor "Seperators" #252525
+@advanced color tablecolor "Tables" #0b0b0b
+
+@advanced checkbox top3 "=== Rentry Infoboxes" 0 
+@advanced color infocolor1a "Info Text" #5c8ca4
+@advanced color infocolor1b "Info Background" #0f1314
+@advanced color infocolor2a "Note Text" #699269
+@advanced color infocolor2b "Note Background" #111610
+@advanced color infocolor3a "Warning Text" #a88548
+@advanced color infocolor3b "Warning Background" #18150e
+@advanced color infocolor4a "Danger Text" #bb8483
+@advanced color infocolor4b "Danger Background" #1c0f0f
+
+@advanced checkbox top4 "=== Rentry Editor" 0
+@advanced color btncolor "Buttons" #0a0a0a
+@advanced color btncolorh "Buttons (Hover)" #141414
+@advanced color fieldcolor "Text Field" #0e0e0e
+@advanced color tabcolor "Tabs" #101010
+
+==/UserStyle== */
+
+@-moz-document domain("rentry.co"), domain("rentry.org") {
+    
+    /* Card */
+.dark-mode .entry-text, .dark-mode .markdownx-preview, .dark-mode .tab-content {
+background-color: /*[[cardcolor]]*/ !important;
+color: /*[[fontcolor]]*/ !important;
+}
+
+    /* Background */
+.dark-mode body {
+    background-color: /*[[bgcolor]]*/;
+    color: /*[[fontcolor]]*/;
+}
+
+    /* Card Font */
+body {
+    font-family: /*[[fontfamily]]*/;
+}
+
+    /* Button Color */
+.dark-mode .btn {
+    color: /*[[fontcolor]]*/ !important;
+    background-color: /*[[btncolor]]*/ !important;
+}
+    
+.btn, .btn:focus, .btn-danger, .btn-danger:focus {
+    font-family: /*[[fontfamily]]*/;
+    }
+
+.dark-mode .btn:focus {
+    color: /*[[fontcolor]]*/ !important;
+}
+
+.dark-mode .btn:hover {
+    background-color: /*[[btncolorh]]*/!important
+}
+    
+    /* Markdown Editor */
+.dark-mode .cm-s-default, .dark-mode textarea {
+    background-color: /*[[cardcolor]]*/ !important;
+    color: /*[[fontcolor]]*/;
+}
+    
+    .dark-mode .form-control, .dark-mode .form-control:focus {
+    background-color: /*[[fieldcolor]]*/;
+    color: /*[[fontcolor]]*/;
+}
+    
+    .dark-mode .nav-link {
+    background-color: /*[[tabcolor]]*/;
+    color: /*[[fontcolor]]*/ !important;
+}
+    
+    .dark-mode .nav-link.active {
+    background-color: /*[[cardcolor]]*/ !important;
+    color: /*[[fontcolor]]*/ !important;
+}
+    
+    /* Tables */
+    .dark-mode .ntable tr:nth-child(even) {
+    background-color: /*[[tablecolor]]*/ !important;
+}
+    
+    .dark-mode .ntable th {
+    background-color: /*[[tablecolor]]*/;
+    border-left: 1px solid #ffffff1f !important;
+    }
+    
+    .dark-mode .mtable>tbody>tr:nth-child(even) {
+    background-color: /*[[tablecolor]]*/ !important;
+}
+    
+    /* Links */
+    .dark-mode a {
+    color: /*[[linkcolor]]*/;
+}
+    
+    /* Seperators */
+    .dark-mode hr, .dark-mode .highlight {
+    border-color: /*[[sepcolor]]*/ !important;
+}
+    
+    /* Info */
+    .dark-mode .admonition.info {
+    color: /*[[infocolor1a]]*/;
+    background-color: /*[[infocolor1b]]*/;
+}
+    .dark-mode .admonition.note {
+    color: /*[[infocolor2a]]*/;
+    background-color: /*[[infocolor2b]]*/;
+}
+    .dark-mode .admonition.warning {
+    color: /*[[infocolor3a]]*/;
+    background-color: /*[[infocolor3b]]*/;
+} 
+    .dark-mode .admonition.danger {
+    color: /*[[infocolor4a]]*/;
+    background-color: /*[[infocolor4b]]*/;
+}
+
+    
+    .admonition.greentext {
+    color: /*[[infocolor2a]]*/;
+    background-color: /*[[infocolor2b]]*/;
+}
+    
+    /* Muted Text */
+    
+    .dark-mode .text-muted {
+    color: /*[[mutedcolor]]*/ !important;
+}
+    
+}
