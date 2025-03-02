@@ -9,3 +9,5 @@
 1. install the [stylus](https://github.com/openstyles/stylus) browser extension
 2. go to a userstyle of your choice on the repository
 3. click "raw", then press "install style"
+
+[rentry copy](https://rentry.co/a8c59975)
