@@ -1,0 +1,236 @@
+/* ==UserStyle==
+@name           trakt.tv 2
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("trakt.tv") {
+    body {
+    font-family: Segoe UI Light !important;
+    }
+    
+    #schedule-wrapper .schedule-episode h5, body.discover #recent-comments-wrapper #recent-comments-links .schedule-episode h5 {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Segoe UI Light", Helvetica, Arial, sans-serif;
+    word-wrap: break-word;
+}
+    
+    :root {
+    --headings-font-family: "Segoe UI Light", Helvetica, Arial, sans-serif !important;
+    --headings-heavy-font-family: "Segoe UI Light", Helvetica, Arial, sans-serif !important;
+    --headings-light-font-family: "Segoe UI Light", Helvetica, Arial, sans-serif !important;
+    --link-color: #9f42c6;
+    --action-watch: #9f42c6;
+    --action-watch-darken: #9137b7;
+    --action-checkin: #ed1c24;
+    --action-checkin-darken: #de1219;
+    --action-collect: #16a085;
+    --action-collect-darken: #138a72;
+    --action-list: #0082ce;
+    --action-list-darken: #0072b4;
+    --action-favorite: #ffb714;
+    --action-favorite-darken: #dda003;
+    --action-watchnow: #6dc847;
+    --action-watchnow-icon: #6dc847;
+    --action-subscribe: #cc0c52;
+    --action-subscribe-darken: #b40b48;
+    --action-comment: #6e7a83;
+    --action-comment-darken: #626d75;
+    }
+    
+    .btn-vip {
+    display: none;
+    }
+    
+    body.dark-knight #ondeck-shows .grid-item .quick-icons, body.dark-knight #progress-grid-wrapper .grid-item .quick-icons {
+    background-color: #111111 !important;
+    }
+    
+    body.dark-knight #network-wrapper .posters .poster-under {
+    background-color: #111111 !important;
+    }
+    
+    body.dark-knight #network-wrapper .posters .activity-date {
+    background-color: #202020 !important;
+    }
+    
+    body.dark-knight section {
+    background-color: #000000;
+}
+    body.dark-knight .subnav-wrapper {
+    background-color: #111111 !important;
+}
+    body.dark-knight #info-wrapper .sidebar .streaming-links {
+    background-color: #151515 !important;
+}
+    #info-wrapper .sidebar .btn-watch-now {
+    background: #151515 !important;
+    }
+    
+    body.dark-knight .btn-summary:not(.selected):not(:hover):not(.btn-checkin) {
+    background-color: #000000 !important;
+}
+    body.dark-knight .btn-summary:not(.selected):not(:hover):not(.btn-checkin) {
+    background-color: #000000 !important;
+}
+    #info-wrapper .info .action-buttons>.btn.selected .side-btn, #info-wrapper .info .action-buttons>.btn:hover .side-btn {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+    body.dark-knight #info-wrapper .sidebar .external li a {
+    background-color: #151515 !important;
+    }
+    
+    body.dark-knight #info-wrapper .sidebar .sections li {
+    border-bottom-color: #202020 !important;
+}
+
+    body.dark-knight #info-wrapper .sidebar .vip-actions, body.dark-knight #info-wrapper .sidebar .mod-actions {
+    border-top-color: #202020 !important;
+}
+    #info-wrapper .affiliate-links .section.private-notes {
+    display: none !important;
+}
+    div#activity.loaded {
+    display: none !important;
+    }
+    
+    h2 .feed-icons {
+    display: none;
+}
+    
+    body.dark-knight .comment-wrapper .above-comment {
+    background-color: #151515 !important;
+}
+    body.dark-knight .comment-wrapper {
+    background-color: #0d0d0d !important;
+}
+
+    body.dark-knight header#top-nav ul.menu {
+    background-color: #000000 !important;
+    }
+    
+    body.dark-knight header#top-nav ul.menu li.divider {
+    background-color: #0d0d0d !important;
+}
+    .frame-wrapper {
+    background-color: #000000 !important;
+}
+
+    .frame-wrapper .sidenav nav {
+        background-color: #000000 !important;
+    }
+    
+    .quick-icons {
+    background-color: #111 !important;
+}
+
+    body.dark-knight #auth-form-wrapper, body.dark-knight .checkin-modal {
+    background-color: #0d0d0d
+}
+    .frame-wrapper {
+    background-color: #000000 !important;
+}
+
+    .frame-wrapper .sidenav nav {
+        background-color: #000000 !important;
+    }
+    
+    .quick-icons {
+    background-color: #111 !important;
+}
+
+    body.dark-knight #auth-form-wrapper, body.dark-knight .checkin-modal {
+    background-color: #0d0d0d !important;
+    }
+    
+    body.calendars .date-separator {
+    background-color: #0d0d0d !important;
+}
+    .frame-wrapper .frame {
+    background-color: #000000 !important;
+    }
+    
+    body.dark-knight .alert-no-data {
+    background-color: #000000 !important;
+    }
+    
+    body.dark-knight.settings .panel .panel-heading, body.dark-knight.authorized_applications .panel .panel-heading, body.dark-knight.applications .panel .panel-heading, body.dark-knight.widgets .panel .panel-heading, body.dark-knight.movies.releases .panel .panel-heading {
+    border-color: #202020;
+    background-color: #151515;
+}
+    body.dark-knight.settings .panel, body.dark-knight.authorized_applications .panel, body.dark-knight.applications .panel, body.dark-knight.widgets .panel, body.dark-knight.movies.releases .panel {
+    border-color: #252525;
+    background-color: #000000;
+}
+    
+    body.dark-knight .form-control {
+    background-color: #000000;
+    color: #ccc;
+    border-color: #404040;
+    }
+    
+    body.dark-knight header#top-nav .search-wrapper.focused #header-search-query {
+    background-color: #101010 !important;
+    }
+    
+    .dark-knight .dropdown .dropdown-toggle, .dark-knight .dropdown.open:not(.filter-dropdown)>.dropdown-toggle {
+    background-color: #101010 !important;
+    }
+    
+    .dark-knight .dropdown .dropdown-menu {
+    background-color: #0d0d0d;
+    }
+    
+    body.dark-knight header#top-nav .search-wrapper #header-search-autocomplete {
+    background-color: #0d0d0d;
+    color: #fff;
+}
+    body.dark-knight header#top-nav .with-ul-menu.with-solid-bg:hover, body.dark-knight header#top-nav .with-ul-menu.with-solid-bg.selected {
+    background-color: #0d0d0d;
+    }
+    
+    header#top-nav .search-wrapper #header-search-query {
+    background: #151515;
+    }
+    
+    body.dark-knight.no-touch header#top-nav .search-wrapper:hover #header-search-query {
+    background: #202020;
+    }
+    
+    #boxes-wrapper {
+    background-color: #000000;
+}
+
+    body.dark-knight #boxes-wrapper .row .genres-stat-box, body.dark-knight #bottom-stats-wrapper .col-stat.alt, body.dark-knight #favorites-wrapper, body.dark-knight.users #charts-wrapper {
+    background-color: #000000;
+}
+}
+
+@-moz-document url("https://trakt.tv/dashboard") {
+    body.dark-knight #ondeck-wrapper {
+    background-color: #000000 !important;
+}
+
+    body.dark-knight #schedule-wrapper {
+    background-color: #0d0d0d !important; 
+}
+
+    body.dark-knight.dashboard #list-wrapper {
+    background-color: #000000 !important;
+}
+    
+    body.dark-knight section {
+    background-color: #0d0d0d;
+}
+    body.dark-knight #network-wrapper {
+    background-color: #000000;
+}
+    #recommendations-wrapper {
+    background-color: #0b0b0b;
+    padding-bottom: 20px;
+}
+
+}
