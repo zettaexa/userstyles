@@ -11,4 +11,5 @@ click on any of these sites to install:<br>
 
 
 [installation](https://github.com/zettaexa/userstyles/blob/main/other/md/install.md)<br>
-[repository](https://github.com/zettaexa/userstyles/blob/main/other/md/repo.md)
+[repository](https://github.com/zettaexa/userstyles/blob/main/other/md/repo.md)<br>
+[profile](https://userstyles.world/user/zettaexa)
