@@ -1,0 +1,312 @@
+/* ==UserStyle==
+@name           google at night
+@namespace      github.com/zettaexa/userstyles
+@version        1.0.0
+@description    makes google darker!!!!!
+@author         zetta
+==/UserStyle== */
+
+@-moz-document domain("www.google.com") {
+body {
+    background: #000000 !important; /*main page color*/
+}
+
+:root {
+    --COEmY: #e8e8e8 !important; /*prob text color*/
+    --xhUGwc: #000 !important; /*search page color*/
+    --aYn2S: #111 !important; /*expanded search body*/
+    --gS5jXb: #111; /*see more*/
+    --XKMDxc: #111; /*footer*/
+    --Lm570b: #111; /*event bg*/
+    --EpFNW: #111; /*about this result*/
+    --uv-styles-color-surface: #000;
+    --KIZPne: #111; /*card selected*/
+    --IXoxUe: #bbb; /*prob text color*/
+    --bbQxAb: #e8e8e8; /*prob text color*/
+    --uv-styles-color-secondary: #121212;
+}
+
+/*search buttons on main page*/
+.lJ9FBc input[type="submit"], .gbqfba {
+    background-color: #111;
+    }
+    
+.lJ9FBc input[type="submit"]:hover {
+    background-color: #181818;
+    }
+
+/*main page footer*/
+.c93Gbe {
+    background: #000;
+}
+
+
+.RNNXgb {
+    background: #111; /*search bar*/
+    }
+.RNNXgb:hover {
+    background: #181818; /*search bar hover*/
+    }
+    
+.aajZCb {
+    background: #111; /*expanded search body*/
+    }
+    
+.sbhl {
+    background: #181818 /*expanded search list hover*/
+}
+
+.caNvfd {
+    --aYn2S: #111 !important;
+    }
+    
+.S8ee5 {
+    background: #111; /*see more*/
+    }
+
+.fxvkXe, .p8Jhnd {
+    background: #111111; /*expand on people also ask*/
+    }
+    
+/*ai overview*/
+.YzCcne {
+    --m3c1: #a8c7fa;
+    --m3c2: rgba(36, 40, 50, 0.5);
+    --m3c3: #1f1f1f;
+    --m3c5: #242832;
+    --m3c6: #111; /*reference + other sites*/
+    --m3c7: #111; /*show all sites btn*/
+    --m3c9: #e8e8e8; /*text color*/
+    --m3c10: #c3c6d6;
+    --m3c11: #eef0ff;
+    --m3c12: #a8c7fa;
+    --m3c13: #34517d;
+    --m3c14: #eef0ff;
+    --m3c15: #a8c7fa;
+    --m3c16: #c3c6d6;
+    --m3c17: #222; /*border*/
+    --m3c18: #446eff;
+    --m3c19: #b1c5ff;
+    --m3c20: #779ad2;
+    --m3c21: #a6c8ff;
+    --m3c22: #365582;
+    --m3c23: #7aacff;
+}
+
+.RDmXvc {
+    background-image: linear-gradient(transparent 0px, #000 80px);
+}
+
+.zNsLfb {
+    background-color: #000000;
+    }
+    
+.eFM0qc.BCF2pd {
+    background: #000; /*translate page btn*/
+    }
+    
+.Jb0Zif .kIXOkb:hover, .Jb0Zif .rl_item_base:hover {
+    background-color: #121212; /*item hover*/
+}
+
+.ZFiwCf {
+    background-color: #111; /*see more btn*/
+    }
+    
+.S8ee5:hover {
+    background-color: #181818; /*see more btn*/
+    }
+
+
+.xab99e .niO4u {
+    background-color: #111; /*l&r btns*/
+    }
+    
+.x2GJWb .niO4u {
+    background-color: #111; /*see more on right btn*/
+}
+
+
+.vIifob {
+    background: #111; /*extra searches*/
+    }
+    
+.JiJthb, .JiJthb .GKS7s:not([selected]) {
+    background: #000000; 
+    }
+
+.JiJthb .F9Idpe {
+    background: linear-gradient(to right, transparent 0%, #000 60%, #000);
+}
+
+.JiJthb .F9Idpe.Iy1nvd {
+    background: linear-gradient(to left, transparent 0%, #000 60%, #000);
+}
+
+/*definition chips*/
+.MR2UAc {
+    background-color: #0f0f0f;
+    border: 1px solid #272727;
+}
+
+.pxhZNb {
+    background-color: #1a1a1a !important;
+    }
+    
+.I6a0ee:hover {
+    background-color: #181818;
+    }
+    
+/*movie chips*/
+.ZkkK1e {
+    background: #0f0f0f;
+}
+
+.ZkkK1e:hover {
+    background: #1a1a1a;
+}
+
+.qk7LXc {
+    background-color: #000;
+    }
+
+.w2IEs {
+    background-color: #000;
+    }
+
+.gQWC2e {
+    background-color: #000; /*why does this exist*/
+    }
+    
+
+.j3ihLe {
+    background-color: #111; /*see more btn*/
+    }
+    
+.DwflQd {
+    background-color: #fff4;
+    }
+    
+.mReaEd {
+    background-color: #fff4;
+    }
+    
+.uais2d {
+    background: #121212; /*see results about*/
+}
+
+.BaegVc:hover {
+    background: #111; /*tool button hover*/
+}
+
+.f6F9Be {
+    background: #000000; /*adv search footer*/
+    }
+    
+.qVhvac[selected] .niO4u {
+    background-color: #58585847;
+}
+
+/*translate*/
+#tw-target {
+    background-color: #000000;
+    }
+    
+.zaokob {
+    background: #000000;
+}
+
+.tw-lliw:hover, .tw-lliw:focus {
+    background: #111;
+    }
+    
+/*weather*/
+.wob_ds {
+    background-color: #121212;
+    }
+    
+/*modern side bar*/
+
+.tGYVp {
+    background: #000000;
+    }
+
+/*sports*/
+.imso-hov:hover {
+    background: #181818;
+}
+
+.tb_c {
+    background-color: #000000;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .16);
+}
+
+.imso-fpm {
+    background-color: #000;
+}
+
+.liveresults-sports-immersive__empty-tile {
+    background-color: #000000;
+}
+
+.qJnhT {
+    background: #000000;
+    }
+    
+.nGHNmf {
+    background-color: #000000;
+    }
+    
+.ey2qkf {
+    background-color: #000;
+}
+
+.cyFc6e {
+    background-color: #111;
+    }
+
+/* lens popout */
+
+.NzSfif {
+    background: #111;
+    }
+    
+.NrdQVe {
+    background: #151515;
+    }
+    
+.cB9M7 {
+    background-color: #202020;
+    }
+    
+.Qwbd3 {
+    background: #202020;
+    }
+    
+.FTQXXe {
+    background-color: #000;
+}
+
+.o5UAab {
+    background-color: #151515;
+    }
+
+
+/*extra*/
+.CybWFf {
+    background-color: #151515;
+}
+
+.LFAdvb {
+    background-color: #000000;
+    }
+    
+.lnnMGf {
+    background: #111;
+    }
+    
+.pkgtHd {
+    background: #111;
+    }
+
+}
