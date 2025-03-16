@@ -1,0 +1,84 @@
+/* ==UserStyle==
+@name           gemini at night
+@namespace      github.com/zettaexa/userstyles
+@version        1.0.0
+@description    makes gemini darker!! and you can pick your accent color!!!!
+@author         zetta
+@advanced text hue "Hue" 218
+@advanced color colorpick "Color Picker (use this to copy your accent Hue)" hsl(218, 70%, 40%)
+==/UserStyle== */
+
+@-moz-document domain("gemini.google.com") {
+:where(.theme-host):where(.dark-theme) {
+    --gem-sys-color--surface: #000; /*Main*/
+    --gem-sys-color--surface-container: #070707; /*Sidebar*/
+    --gem-sys-color--surface-container-low: #000 /*Gem Maker*/
+    
+    --gem-sys-color--surface-container-high: #111 !important; /*Hover*/
+    --gem-sys-color--surface-container-high: #111;
+    --gem-sys-color--surface-container-high--rgb: 17, 17, 17;
+    /*I have no idea why it needs 3 of the same variable for it to work but whatever*/
+    
+    --gem-sys-color--surface-container-highest: #111; /*Conversation link field*/
+    --gem-sys-color--surface-bright: #121212; /*Conversation link button*/
+
+        
+    --gem-sys-color--outline-variant: #222; /*Chat Border*/
+    --gem-sys-color--surface-variant: #222 !important;
+    
+    --gem-sys-color--primary: hsl(/*[[hue]]*/, 91%, 91%); /*Primary Colors, default hue is 218*/
+    --gem-sys-color--primary-container: hsl(/*[[hue]]*/, 72%, 11%);
+    --gem-sys-color--on-primary: hsl(/*[[hue]]*/, 90%, 23%);
+    --gem-sys-color--on-primary-container: hsl(/*[[hue]]*/, 91%, 91%);
+    
+    --gem-sys-color--secondary-container: hsl(/*[[hue]]*/, 72%, 11%);
+    --gem-sys-color--on-secondary-container: hsl(/*[[hue]]*/, 100%, 88%);
+    
+    
+    /*Saving time*/
+    --gem-sys-color--surface--rgb: var(--gem-sys-color--surface);
+        }
+        
+:root .dark-theme {
+    --bard-color-new-conversation-button: #0b0b0b; /*New Chat button*/
+    --bard-color-bot-power-up-button-background: #111; /*Back and Forward buttons*/
+    --bard-color-response-container-flipped-background: #111; /*Release Note Cards*/
+    }
+    
+    
+/*Disables the Try Gemini Advanced button at the top,*/ 
+upsell-button {
+display: none;
+/*Change to flex if you want it
+Change to none if you don't want it */
+}
+
+/*Disables the location reminder in the sidebar*/ 
+.location-icon {
+display: none;
+}
+
+.location-footer-name {
+display: none;
+}
+
+.location-footer-atl-text {
+display: none;
+}
+
+.update-location-text {
+display: none;
+}
+
+.location-buttons-dot {
+display: none;
+}
+/*Change all of these to flex if you want it
+Change all of these to none if you don't want it */
+
+button {
+font-family: Google Sans;
+}
+/*Ts ts ts ts pmo pmo pmo pmo (changes font for deep research option)*/
+
+}
