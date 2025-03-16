@@ -326,11 +326,9 @@ html.theme_night .ui_cataloger_dialog_rating_item.item_zero {
     background: #1e1e1e;
 }
 
-
 html.theme_night .ui_picker_frame {
     background: rgba(128, 128, 128, .2);
   }
-}
 
 html.theme_night .ui_cataloger_dialog_rating_base:hover,html.theme_night .ui_cataloger_dialog_rating_subitem:hover {
     background: #222
