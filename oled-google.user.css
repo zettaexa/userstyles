@@ -309,4 +309,14 @@ body {
     background: #111;
     }
 
+/*mini div fix*/	
+.minidiv .RNNXgb {
+  background: #111;
+  border: 1px solid #000;
+	}
+	
+.minidiv .sfbg {
+  background: #000;
+	}
+
 }
