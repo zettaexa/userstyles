@@ -1,0 +1,46 @@
+/* ==UserStyle==
+@name           chatGPT at night
+@namespace      github.com/zettaexa/userstyles
+@version        1.0.0
+@description    simple oled theme for ChatGPT
+@author         zetta
+==/UserStyle== */
+
+@-moz-document domain("chatgpt.com") {
+    .dark {
+    --bg-primary: #000000;
+    --bg-tertiary: #101010;
+    --bg-elevated-secondary: #0c0c0c;
+    --message-surface: #ffffff0f;
+    }
+    
+    .dark\:bg-\[\#353535\]:is(.dark *) {
+    background-color: #121212;
+    }
+    
+    .dark\:bg-\[\#303030\]:is(.dark *) {
+    background-color: #101010;
+}
+
+
+.dark, .light .dark {
+    --default-theme-secondary-btn-bg: #151515;
+    }
+    
+    :root {
+    --gray-800: #000000;
+    }
+
+.dark\:bg-gray-800:is(.dark *) {
+    background-color: #0f0f0f;
+}
+
+.dark :not(.light).popover, .dark.popover, .popover .dark {
+    --main-surface-primary: #000000;
+    --main-surface-secondary: #101010;
+    }
+    
+.dark\:bg-gray-700:is(.dark *) {
+    background-color: #0c0c0c;
+}
+}
