@@ -1,0 +1,190 @@
+/* ==UserStyle==
+@name           openscrobbler at night
+@namespace      github.com/zettaexa/userstyles
+@version        1.0.0
+@description    oled theme for openscrobbler
+@author         zetta
+==/UserStyle== */
+
+@-moz-document domain("openscrobbler.com") {
+    body {
+    background-color: black !important;
+    }
+    
+    :root {
+    --bs-heading-color: white;
+    --bs-gray-dark: #151515;
+    --bs-dark: #252525;
+    --bs-body-color: #d5d5d5;
+    }
+    
+    .card {
+    --bs-card-bg: #101010;
+    }
+    
+    .list-group {
+    --bs-list-group-bg: #101010;
+    }
+    
+    .btn-outline-secondary {
+    --bs-btn-hover-bg: #232323;
+    --bs-btn-active-bg: #161616;
+    }
+    
+    .bg-dark {
+    background-color: #101010 !important;
+}
+
+.UserCard-container {
+    background-color: #000000;
+    }
+    
+.ScrobbleList-container.with-gradient {
+    background: #000;
+    }
+    
+    .pagination .page-link {
+    background-image: linear-gradient(#151515, #101010 20%, #050505);
+}
+
+.pagination .page-link:hover {
+    background: #101010;
+    }
+    
+    .DateTimePicker input[readonly] {
+    background-color: #151515;
+}
+.DayPicker:not(.DayPicker--interactionDisabled) .DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover {
+    background-color: #202020;
+}
+
+.input-group-text {
+    background-color: #202020;
+    }
+
+.pagination .page-item.active .page-link {
+    background: #101010;
+    filter: none;
+}
+
+    
+    .btn-secondary:not([disabled]):not(.disabled):hover {
+    background-image: linear-gradient(#050505,#101010 40%,#151515);
+    filter: none
+}
+
+.breadcrumb {
+    background: #000;
+}
+    
+    .navbar.bg-dark .nav-link.active, .navbar.bg-dark .nav-link:active {
+    background-image: linear-gradient(#050505, #101010 40%, #151515);
+    }
+    
+    .navbar.bg-dark .nav-link:hover {
+    background-image: linear-gradient(#151515,#101010 40%,#050505) !important;
+    }
+    
+    .form-control {
+    background-color: #151515;
+    color: white;
+    }
+    
+    .form-control:focus {
+    background-color: #151515;
+    color: white;
+    border-color: #252525;
+    }
+    
+    .nav-tabs .nav-link:not([disabled]):not(.disabled).active, .nav-tabs .nav-link:not([disabled]):not(.disabled):active, .nav-tabs .nav-link:not([disabled]):not(.disabled):focus, .nav-tabs .nav-link:not([disabled]):not(.disabled):hover {
+    background-image: linear-gradient(#050505, #101010 20%, #151515);
+    }
+    
+    .nav-tabs .nav-link {
+    background-image: linear-gradient(#151515,#101010 20%,#050505);
+    }
+    
+    .btn-secondary {
+    background-image: linear-gradient(#151515,#101010 20%,#050505);
+    filter: none;
+}
+
+.dropdown-menu {
+    --bs-dropdown-bg: #151515;
+    --bs-dropdown-link-active-bg: #202020;
+    --bs-dropdown-link-hover-bg: #222222;
+    }
+
+
+.modal {
+    --bs-modal-bg: #050505;
+    }
+    
+    .form-select {
+    background-color: #101010;
+    color: white;
+    }
+    
+    footer {
+    background-color: #000000;
+    }
+
+body.with-shadow {
+    background: #000000;
+}
+
+.d-flex.flex-column {
+    background-color: black;;
+}
+
+.btn-secondary:not([disabled]):not(.disabled).active:hover,.btn-secondary:not([disabled]):not(.disabled):active:hover {
+    background-image: linear-gradient(#101010,#050505 40%,#000000);
+    filter: none
+}
+
+.albumCard.mt-4.interactive {
+    background: #101010 !important;
+}
+
+.bg-secondary {
+    background: #101010;
+}
+
+.alert-dark {
+    background-color: #000000 !important;
+}
+
+.form-check-input {
+    --bs-form-check-bg: #151515;
+    border: var(--bs-border-width) solid #252525;
+    }
+    
+.form-check-input:checked {
+    background-color: #303030;
+    border-color: #303030;
+}
+
+    .form-select {
+    background-color: #101010;
+    color: white;
+    }
+    
+    footer {
+    background-color: #000000;
+    }
+
+.jumbotron {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 2rem;
+}
+
+.ows-SocialNetworkBlock.row {
+    display: none; /*activate this if you want to see the promo bumpers*/
+}
+
+.ows-social-support.ows-glowing {
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, .6);
+}
+    }
