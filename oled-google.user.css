@@ -60,6 +60,14 @@ body {
     --aYn2S: #111 !important;
     }
     
+.emcav .RNNXgb, .BgPPrc .RNNXgb {
+    background: #111;
+    }
+    
+.emcav .RNNXgb:hover, .sbfc.emcav .RNNXgb, .BgPPrc .RNNXgb:hover {
+    background: #151515;
+    }
+    
 .S8ee5 {
     background: #111; /*see more*/
     }
@@ -290,6 +298,19 @@ body {
 .o5UAab {
     background-color: #151515;
     }
+    
+    /*mini div fix*/	
+.minidiv .RNNXgb {
+  background: #111;
+  border: 1px solid #000;
+	}
+    
+.minidiv .sfbg {
+    height: 72px;
+    overflow: hidden;
+    background: #111;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+}
 
 
 /*extra*/
@@ -308,15 +329,5 @@ body {
 .pkgtHd {
     background: #111;
     }
-
-/*mini div fix*/	
-.minidiv .RNNXgb {
-  background: #111;
-  border: 1px solid #000;
-	}
-	
-.minidiv .sfbg {
-  background: #000;
-	}
 
 }
