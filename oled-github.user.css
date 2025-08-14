@@ -1,0 +1,32 @@
+/* ==UserStyle==
+@name           github at night
+@namespace      github.com/zettaexa/userstyles
+@version        1.0.0
+@description    OLED theme for github
+@author         zetta
+==/UserStyle== */
+
+@-moz-document domain("github.com") {
+    [data-color-mode="dark"][data-dark-theme="dark"], [data-color-mode="dark"][data-dark-theme="dark"] ::backdrop, [data-color-mode="auto"][data-light-theme="dark"], [data-color-mode="auto"][data-light-theme="dark"] {
+ --bgColor-default: #000000;
+ --bgColor-muted: #000000;
+ --control-bgColor-active: #101010;
+ --control-bgColor-hover: #050505;
+ --control-bgColor-rest: #000000;
+ --buttonCounter-default-bgColor-rest: #202020;
+ --controlTrack-bgColor-active: #252525;
+ --controlTrack-bgColor-hover: #202020;
+ --controlTrack-bgColor-rest: #151515;
+ --borderColor-default: #151515;
+ --borderColor-muted: #202020a1;
+ --bgColor-inset: #000000;
+ --bgColor-disabled: #151515;
+ --timelineBadge-bgColor: #151515;
+ --color-bg-discussions-row-emoji-box: #151515;
+ --menu-bgColor-active: #151515;
+ --fgColor-muted: #c0c0c0;
+ --bgColor-emphasis: #252525;
+ --overlay-bgColor: #000000;
+ --overlay-backdrop-bgColor: #000000b5;
+ }
+}
