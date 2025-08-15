@@ -1,0 +1,81 @@
+/* ==UserStyle==
+@name           vert at night
+@namespace      github.com/zettaexa/userstyles
+@version        1.0.0
+@description    OLED theme for vert.sh
+@author         zetta
+@advanced text hue "Hue" 311
+@advanced text font "Font" Segoe UI
+@advanced text gradin "Back Gradient Intensity" .0
+@advanced color picker "Color Picker (use this to copy your accent hue)" hsl(311, 78%, 71%)
+==/UserStyle== */
+
+@-moz-document domain("vert.sh") {
+:root.dark {
+    --bg-panel: hsla(0, 0%, 3%, .8);
+    --bg: hsl(0deg 0% 0%);
+    --bg-panel-highlight: hsl(0deg 0% 7.5%);
+    --bg-separator: hsl(0deg 0% 7.5%);
+    --bg-button: hsl(0deg 0% 0%);
+    --accent-pink: hsl(/*[[hue]]*/, 78%, 71%);
+    --bg-gradient-from: hsla(/*[[hue]]*/, 78%, 71%, /*[[gradin]]*/);
+    --bg-gradient-to: hsla(0, 0%, 0%, 0);
+    --bg-gradient-blue-from: hsla(/*[[hue]]*/, 78%, 71%, /*[[gradin]]*/);
+    --bg-gradient-blue-to: hsla(0, 0%, 0%, 0);
+    }
+    
+:root {
+    --font-body: /*[[font]]*/;
+    --font-display: /*[[font]]*/, var(--font-body);
+    }
+    
+.text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    display: none;
+}
+
+.md\:mt-16 {
+    margin-top: 0px;
+}
+
+.md\:py-16 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.pb-32 {
+    padding-top: 8rem; /*change this to 0 if you want the navbar back*/
+    padding-bottom: 8rem;
+}
+
+.flex-grow.w-full.h-72 {
+    width: 700px; /*make this larger if you want a larger upload button on the front page*/
+}
+
+footer.hidden.md\:block.w-full.h-14.border-t.border-separator.fixed.bottom-0.mt-12 {
+    display: none;
+}
+    
+.flex-grow.w-full.text-center.md\:text-left {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+.hidden.md\:flex.p-8.w-screen.justify-center {
+    display: none; /*put this to flex if you want the navbar back*/
+}
+
+hr {
+    display: none;
+}
+
+:root:not(.light).dark .tooltip.svelte-1t6bup9 {
+    border-color: #050505;
+}
+
+
+}
