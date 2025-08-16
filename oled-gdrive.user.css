@@ -1,0 +1,33 @@
+/* ==UserStyle==
+@name           gdrive at night
+@namespace      github.com/zettaexa/userstyles
+@version        0.5
+@description    OLED theme for google drive
+@author         zetta
+==/UserStyle== */
+
+@-moz-document domain("drive.google.com") {
+    .vhoiae.LgGVmb {
+    --dt-surface-container-low: #050505;
+    --dt-background: #000000;
+    --dt-surface: #000000;
+    --dt-surface-container: #101010;
+    --dt-surface-container-high: #101010;
+    --dt-surface-bright: #050505;
+    --gm3-sys-color-surface-container-high: #101010;
+    --dt-outline: #252525;
+    --gm3-sys-color-outline: #252525;
+    --dt-outline-variant: #151515;
+    --dt-surface-container-highest: #000000;
+    --dt-surface-tint: #bababa;
+    }
+    
+    .gb_v.gb_ke.Hb-ja-Na {
+    display: none; /*change this to flex if you want the help, settings, and gemini button back*/
+}
+
+.Kk7lMc-Wc-Da .Kk7lMc-QWPxkf-d.Yb-Il-d-rc .Yb-Il-d-c-Nd {
+  background-color: #151515;
+}
+
+}
