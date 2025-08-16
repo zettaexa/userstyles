@@ -1,0 +1,44 @@
+/* ==UserStyle==
+@name           gphotos at night
+@namespace      github.com/zettaexǽ/userstyles
+@version        1.0.0
+@description    OLED theme for google photos
+@author         zetta
+==/UserStyle== */
+
+@-moz-document domain("photos.google.com") {
+    body {
+        --gm3-sys-color-background: #000000;
+        --gm3-sys-color-surface-container-high: #101010;
+        --gm3-sys-color-surface-container: #050505;
+        --gm3-sys-color-surface: #000000;
+        --gm3-sys-color-outline-variant: #151515;
+        --gm3-sys-color-surface-container-low: #000000;
+        --gm3-sys-color-surface-variant: #1c1c1c;
+        --gm3-sys-color-surface-bright: #101010;
+        }
+        
+    /*photo editing*/
+        
+    .dm7YTc {
+    --gm3-sys-color-background: #000000;
+    }
+    
+    .l2HZid {
+    --gm3-tabs-primary-container-color: #000000;
+    --gm3-tabs-primary-divider-color: #252525;
+    }
+    
+    .gmtNPe {
+    background-color: #101010;
+    }
+
+    .TERVqe {
+    background-color: #151515;
+    }
+    
+    .hQh7Cd {
+    display: none; /*set this to flex if you want the settings and help buttons back*/
+    }
+
+}
