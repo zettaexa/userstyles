@@ -9,6 +9,12 @@
 @-moz-document domain("www.google.com") {
 body {
     background: #000000 !important; /*main page color*/
+    --nvzc4: #000000; /*ai mode main page doohickey 1*/
+    --nvzc36: #000000; /*ai mode main page doohickey 2*/
+    --nvzc5: #101010; /*ai mode search bar*/
+    --nvzc6: #151515; /*ai mode sidebar element hover*/
+    --nvzc7: #151515;
+    --nvzc35: #202020;
 }
 
 :root {
@@ -80,7 +86,19 @@ body {
 .fxvkXe, .p8Jhnd {
     background: #111111; /*expand on people also ask*/
     }
-    
+
+/* ai mode */
+.ho072b {
+    background: #000000; /* chat history sidebar lower half*/
+}
+.Vt1EGb {
+    background: #000000; /* chat history sidebar top half*/
+}
+.cp7uzb {
+    background-color: #101010;
+}
+
+
 /*ai overview*/
 .YzCcne {
     --m3c1: #a8c7fa;
@@ -334,5 +352,21 @@ body {
 .pkgtHd {
     background: #111;
     }
+    
+/*image search chip doohickey*/
+.rfiSsc {
+    position: relative;
+    background: #000000;
+}
+
+.b53XLe .Xx7Mif {
+    background-color: #000000;
+}
+
+/* more filters*/
+.vH6rvf {
+    background: #000000;
+    }
+    
 
 }
