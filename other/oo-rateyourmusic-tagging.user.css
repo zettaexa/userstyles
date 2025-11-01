@@ -1,0 +1,48 @@
+/* ==UserStyle==
+@name           RYM minimal tagging
+@namespace      github.com/zettaexa/userstyles
+@version        1.0.0
+@description    A new userstyle
+@author         zetta
+
+@advanced select small_display "User votes display" {
+"Regular": "table-row",
+"Table": "table-cell",
+"None*": "none" 
+}
+@advanced text small_size "User votes text size" 0.8em
+@advanced number comments "Comment box height" 500
+@advanced select docs "Show documentation" {
+"Yes": "inherit",
+"No*": "none"
+}
+==/UserStyle== */
+
+@-moz-document url-prefix("https://rateyourmusic.com/rgenre/"), url-prefix("https://rateyourmusic.com/rdescriptor/") {
+.small {
+    display: /*[[small_display]]*/;
+    font-size: /*[[small_size]]*/;
+}
+
+.notice {
+    display: /*[[docs]]*/;
+}
+
+hr {
+    display: none;
+    margin: 0px !important;
+}
+
+#content > .mbgen > tbody > tr > td:nth-of-type(1) > div:nth-of-type(2) > div {
+display: /*[[docs]]*/;
+}
+
+.smallcomment_area {
+    height: /*[[comments]]*/px !important;
+}
+
+.ui_breadcrumb_frame {
+    display: none;
+}
+
+}
