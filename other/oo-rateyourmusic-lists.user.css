@@ -1,0 +1,47 @@
+/* ==UserStyle==
+@name           RYM compact lists
+@namespace      github.com/zettaexa/userstyles
+@version        1.0.0
+@description    makes your RYM lists much more compact
+@author         zetta
+==/UserStyle== */
+
+@-moz-document url-prefix("https://rateyourmusic.com/list") {
+.list_art {
+    padding: 10px;
+    width: 100px; /* list item image size*/
+    }
+
+a.list_album:link, a.list_album:visited, list_album {
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-bottom: 0em !important;
+}
+
+img[style] {
+    max-width: 200px; /* user uploaded image as list cover */
+}
+img[width="300"] {
+    max-width: 200px; /* album artwork as list cover */
+}
+
+.wiki-image {
+    max-width: initial !important;
+}
+
+/* list number */
+.number {
+    font-size: 2em;
+    width: 75px;
+}
+
+/* list info tweaks */
+p {
+    line-height: 1.5em;
+    margin-bottom: .5em !important;
+}
+
+}
