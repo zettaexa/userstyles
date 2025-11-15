@@ -1,0 +1,35 @@
+/* ==UserStyle==
+@name           RYM colorful media links
+@namespace      github.com/zettaexa/userstyles
+@version        1.0.0
+@description    adds color and small customizability to media links on RYM
+@author         zetta
+@advanced text size "Media button size" 1.8
+@advanced text corners "Media button corners" 0.7
+==/UserStyle== */
+
+@-moz-document domain("rateyourmusic.com") {
+    .ui_media_links {
+    font-size: /*[[size]]*/rem;
+    }
+    .ui_media_link_btn {
+    border-radius: /*[[corners]]*/rem;
+    }
+
+    /*spotify button*/
+    .ui_media_link_btn_spotify {
+    background-image: url(https://raw.githubusercontent.com/zettaexa/userstyles/refs/heads/main/other/assets/spotify.svg) !important;
+    }
+    /*apple music button*/
+    .ui_media_link_btn_applemusic {
+    background-image: url(https://raw.githubusercontent.com/zettaexa/userstyles/refs/heads/main/other/assets/itunes.svg) !important;
+    }
+    /*deezer button*/
+    .ui_media_link_btn_deezer {
+    background-image: url(https://raw.githubusercontent.com/zettaexa/userstyles/refs/heads/main/other/assets/deezer.svg) !important;
+    }
+    /*qobuz button*/
+    .ui_media_link_btn_qobuz {
+    background-image: url(https://raw.githubusercontent.com/zettaexa/userstyles/refs/heads/main/other/assets/qobuz.svg) !important;
+    }
+}
