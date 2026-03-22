@@ -1,0 +1,40 @@
+/* ==UserStyle==
+@name           claude at night
+@namespace      https://github.com/zettaexa/userstyles
+@version        1.0.0
+@description    OLED dark mode for claude
+@author         zetta
+==/UserStyle== */
+
+@-moz-document domain("claude.ai") {
+.bg-bg-100 {
+    --tw-bg-opacity: 1;
+    background-color: hsl(0deg 0% 0%);
+}
+
+.via-bg-100 {
+    --tw-gradient-to: hsl(var(--bg-100) / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: hsl(0deg 0% 0%), hsl(0deg 0% 0%) var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.bg-bg-000 {
+    --tw-bg-opacity: 1;
+    background-color: hsl(0deg 0% 0%);
+}
+
+.bg-bg-200 {
+    --tw-bg-opacity: 1;
+    background-color: hsl(0deg 0% 6.45%);
+}
+
+.hover\:bg-bg-100:hover {
+    --tw-bg-opacity: 1;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.hover\:bg-bg-200:hover {
+    --tw-bg-opacity: 1;
+    background-color: hsl(0, 0%, 8%);
+}
+
+}
