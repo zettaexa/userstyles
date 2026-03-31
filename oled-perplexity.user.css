@@ -1,0 +1,92 @@
+/* ==UserStyle==
+@name           perplexity at night
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    pplx and labs at night
+@author         InternetNinja
+@match			https://*.perplexity.ai/*
+==/UserStyle== */
+@-moz-document domain("labs.perplexity.ai/*") {
+	@media (prefers-color-scheme: dark) {
+		:root:not([data-color-scheme="light"]) .dark\:bg-backgroundDark {
+			background-color: rgba(0, 0, 0, 1);
+		}
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-color-scheme="light"]) .dark\:bg-offsetDark {
+		--tw-bg-opacity: 1;
+		background-color: rgb(0, 0, 0);
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-color-scheme="light"]) .dark\:bg-idleDark {
+		--tw-bg-opacity: 1;
+		background-color: rgb(0, 0, 0);
+		border: 1.5px solid #3d3f40;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-color-scheme="light"]) .dark\:hover\:bg-offsetPlusDark:hover {
+		--tw-bg-opacity: 1;
+		background-color: rgb(0, 0, 0);
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-color-scheme="light"]) .dark\:bg-backgroundDark {
+		--tw-bg-opacity: 1;
+		background-color: rgb(0, 0, 0);
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-color-scheme="light"]) .dark\:hover\:bg-offsetPlusDark:hover {
+		--tw-bg-opacity: 1;
+		background-color: #2d2f2f;
+	}
+}
+
+[data-color-scheme="dark"] .dark\:shadow-black\/10 {
+	--tw-shadow-color: none;
+	--tw-shadow: none;
+}
+
+[data-cplx-component="message-block"][data-inflight="false"] [data-cplx-component="message-block-query"] + .md\:sticky {
+	background: black !important;
+}
+
+.erp-sidecar\:h-fit > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+	background: black !important;
+}
+
+.bg-background,
+.bg-background-100 {
+	background-color: rgb(0, 0, 0);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-color-scheme="light"]) .dark\:bg-background,
+	:root:not([data-color-scheme="light"]) .dark\:bg-background-100 {
+		background-color: rgb(0, 0, 0);
+		border: 1px solid gray;
+	}
+}
+
+/* changed suggestions background to dark, but hover is still grey */
+@media (prefers-color-scheme: dark) {
+	:root:not([data-color-scheme="light"]) .dark\:hover\:bg-background-300 {
+		--tw-bg-opacity: 1;
+		background-color: rgb(0, 0, 0);
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-color-scheme="light"]) .dark\:hover\:bg-background-300:hover {
+		--tw-bg-opacity: 1;
+		background-color: #2d2f2f;
+	}
+}
