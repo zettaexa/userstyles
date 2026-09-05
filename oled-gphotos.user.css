@@ -41,4 +41,8 @@
     display: none; /*set this to flex if you want the settings and help buttons back*/
     }
 
+    .vI9sif {
+    background: none !important;
+    }
+
 }
